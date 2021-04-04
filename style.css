@@ -4,9 +4,9 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  color: #2c3e50
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #2c3e50
 }
 
 #header {
@@ -34,14 +34,14 @@ body {
 
 h1 {
     font-size: 2.5em;
-    color: #d35400;
+    color: palevioletred;
 }
 
-.square{
+.square {
     height: 12px;
     width: 12px;
     display: inline-block;
-    background: #f39c12;
+    background: palevioletred;
     margin: 15px 0;
 }
 
@@ -49,7 +49,7 @@ h1 {
     padding: 18px 40px;
     background: transparent;
     outline: none;
-    border: 2px solid #f39c12;
+    border: 2px solid palevioletred;
     font-weight: bold;
     cursor: pointer;
 }
@@ -73,21 +73,21 @@ p {
 .line-1 {
     width: 15px;
     height: 15px;
-    background: #f39c12;
+    background: palevioletred;
     display: inline-block;
 }
 
 .line-2 {
     width: 80px;
     height: 1px;
-    background: #f39c12;
+    background: palevioletred;
     display: inline-block;
 }
 
 .line-3 {
     width: 60px;
     height: 1px;
-    background: #f39c12;
+    background: palevioletred;
     display: inline-block;
 }
 
@@ -101,7 +101,7 @@ p {
     position: fixed;
     right: -250px;
     top: 0;
-    background: #f39c12;
+    background: palevioletred;
     z-index: 2;
     transition: .5s;
 }
@@ -128,7 +128,8 @@ nav ul li a {
 
 /*--------about--------*/
 
-#about, #education {
+#about,
+#education {
     padding: 100px 0;
     display: flex;
     align-items: center;
@@ -281,7 +282,7 @@ nav ul li a {
     overflow-y: auto;
     background: transparent;
     box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
-                -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+        -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
     border-radius: 40px;
     padding: 4px 30px 20px;
 }
@@ -293,7 +294,8 @@ nav ul li a {
     flex-wrap: wrap;
 }
 
-.contact-left-call, .contact-right-call {
+.contact-left-call,
+.contact-right-call {
     flex-basis: 50%;
 }
 
@@ -339,7 +341,7 @@ hr {
     text-align: center;
     color: #1e272e;
     font-family: 'Niconne', cursive;
-    font-weight: 700; 
+    font-weight: 700;
 }
 
 #footer h2 span {
@@ -351,6 +353,7 @@ hr {
     #header {
         background-image: none;
     }
+
     .container {
         margin-right: 50px;
         margin-left: 50px;
@@ -369,24 +372,32 @@ hr {
         font-size: 25px;
         color: #d35400;
     }
-    #menuBtn {
+
+    .menuBtn {
         width: 40px;
         right: 50px;
+
     }
+
     .common-btn {
         padding: 10px 16px;
     }
+
     .social-media img {
         width: 25px;
         margin: 15px auto;
     }
-    .about-left-col, .about-right-col {
+
+    .about-left-col,
+    .about-right-col {
         flex-basis: 100%;
     }
+
     .about-text {
         margin: 50px 50px 0;
         display: inline-block;
     }
+
     .quotation {
         font-size: 14px;
         font-style: italic;
@@ -394,6 +405,7 @@ hr {
         padding: 10px 20px;
         line-height: 1.4;
     }
+
     .quotation:before {
         content: open-quote;
         display: inline;
@@ -417,21 +429,21 @@ hr {
         color: #ccc;
         font-size: 3em;
     }
-    
+
     .skill-col {
         flex-basis: 50%;
         margin-bottom: 20px;
     }
-    
+
     .project-left-col {
         flex-basis: 100%;
     }
-    
+
     .project-right-col {
         flex-basis: 100%;
         margin-top: 70px;
     }
-    
+
     .box {
         width: 50%;
         margin: 0 auto;
@@ -443,31 +455,30 @@ hr {
         overflow-y: auto;
         background: transparent;
         box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
-                    -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+            -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
         border-radius: 40px;
         padding: 4px 30px 20px;
     }
-    
-    .contact-left-call, .contact-right-call {
+
+    .contact-left-call,
+    .contact-right-call {
         flex-basis: 100%;
     }
-    
+
     .contact-right-call {
         margin-top: 50px;
     }
+
     .social-media img {
         display: inline-flex;
     }
-    
+
     #footer h2 {
         text-align: center;
         color: #1e272e;
         font-family: 'Niconne', cursive;
-        font-weight: 700; 
+        font-weight: 700;
         font-size: 24px;
     }
 
 }
-
-
-
